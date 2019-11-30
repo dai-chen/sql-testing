@@ -1,2 +1,3 @@
-# sql-testing
+# SQL Testing
+
 SQL correctness and performance testing
