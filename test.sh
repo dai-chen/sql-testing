@@ -13,5 +13,6 @@ git config user.email "daichen@amazon.com"
 git config user.name "Dai"
 git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 
-git commit -am "Test report"
-git push
+git add .
+git commit -m "Test report"
+git push origin HEAD:master
